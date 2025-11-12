@@ -107,8 +107,7 @@ nav ul li a:hover:not(.btn-kontak) {
 
 /* Hero Section - Menggunakan gambar latar belakang dari input user */
 .hero {
-    /* ** PENTING: GANTI NAMA FILE INI DENGAN NAMA FILE GAMBAR ANDA 
-    */
+    /* Menggunakan gambar Anda dan menambahkan overlay (lapisan) untuk kejelasan teks */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('IMG_20251112_111819.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
@@ -117,7 +116,6 @@ nav ul li a:hover:not(.btn-kontak) {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Menambahkan overlay hitam transparan (linear-gradient) agar teks lebih jelas */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
