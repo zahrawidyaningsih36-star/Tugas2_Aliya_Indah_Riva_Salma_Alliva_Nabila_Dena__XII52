@@ -1,0 +1,2 @@
+# Tugas2_Aliya_Indah_Riva_Salma_Alliva_Nabila_Dena__XII52
+Tugas 2 kedua
