@@ -105,9 +105,9 @@ nav ul li a:hover:not(.btn-kontak) {
     color: var(--primary-color);
 }
 
-/* Hero Section - Menggunakan gambar latar belakang dari input user */
+/* Hero Section (Latar Belakang Sekolah Inspiratif) */
 .hero {
-    /* Menggunakan gambar Anda dan menambahkan overlay (lapisan) untuk kejelasan teks */
+    /* ** PENTING: File gambar Anda digunakan di sini */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('IMG_20251112_111819.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
