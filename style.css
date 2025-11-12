@@ -105,17 +105,20 @@ nav ul li a:hover:not(.btn-kontak) {
     color: var(--primary-color);
 }
 
-/* Hero Section */
+/* Hero Section - Menggunakan gambar latar belakang dari input user */
 .hero {
-    background: url('https://dummyimage.com/1200x600/007bff/fff&text=Latar+Belakang+Sekolah+Inspiratif') no-repeat center center/cover;
+    /* ** PENTING: GANTI NAMA FILE INI DENGAN NAMA FILE GAMBAR ANDA 
+    */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('IMG_20251112_111819.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
-    height: 60vh; /* Tinggi yang baik untuk landing page */
+    height: 60vh; 
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Membuat teks lebih terbaca */
+    /* Menambahkan overlay hitam transparan (linear-gradient) agar teks lebih jelas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
 .hero h2 {
