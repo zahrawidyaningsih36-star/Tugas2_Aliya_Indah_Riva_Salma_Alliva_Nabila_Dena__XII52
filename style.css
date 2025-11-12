@@ -107,7 +107,7 @@ nav ul li a:hover:not(.btn-kontak) {
 
 /* Hero Section (Latar Belakang Sekolah Inspiratif) */
 .hero {
-    /* ** PENTING: File gambar Anda digunakan di sini */
+    /* Gambar Anda sudah digunakan di sini dengan 'cover' untuk penyesuaian otomatis */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('IMG_20251112_111819.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
